@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000989] (first_package) JobQueued: {'identifier': 'first_package', 'dependencies': OrderedDict()}
+[0.001191] (first_package) JobStarted: {'identifier': 'first_package'}
+[0.098851] (-) TimerEvent: {}
+[0.199900] (-) TimerEvent: {}
+[0.300822] (-) TimerEvent: {}
+[0.401639] (-) TimerEvent: {}
+[0.502523] (-) TimerEvent: {}
+[0.603287] (-) TimerEvent: {}
+[0.703996] (-) TimerEvent: {}
+[0.804621] (-) TimerEvent: {}
+[0.905201] (-) TimerEvent: {}
+[1.005970] (-) TimerEvent: {}
+[1.107323] (-) TimerEvent: {}
+[1.208993] (-) TimerEvent: {}
+[1.309526] (-) TimerEvent: {}
+[1.410056] (-) TimerEvent: {}
+[1.510578] (-) TimerEvent: {}
+[1.611099] (-) TimerEvent: {}
+[1.711810] (-) TimerEvent: {}
+[1.812891] (-) TimerEvent: {}
+[1.913849] (-) TimerEvent: {}
+[2.014668] (-) TimerEvent: {}
+[2.115482] (-) TimerEvent: {}
+[2.216318] (-) TimerEvent: {}
+[2.317035] (-) TimerEvent: {}
+[2.417554] (-) TimerEvent: {}
+[2.518075] (-) TimerEvent: {}
+[2.618757] (-) TimerEvent: {}
+[2.719555] (-) TimerEvent: {}
+[2.820513] (-) TimerEvent: {}
+[2.921344] (-) TimerEvent: {}
+[2.930970] (first_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/first_package', 'build', '--build-base', '/home/netweaver/workspace/build/first_package/build', 'install', '--record', '/home/netweaver/workspace/build/first_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/netweaver/workspace/src/first_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': 'false', 'USER': 'netweaver', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'POWERLINE_COMMAND': 'oh-my-posh', 'HOME': '/home/netweaver', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/netweaver/workspace/src', 'TERM_PROGRAM_VERSION': '1.86.2', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/netweaver/.nvm/versions/node/v20.11.1/bin', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2462', 'SYSTEMD_EXEC_PID': '2665', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4164', 'NVM_DIR': '/home/netweaver/.nvm', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'iron', 'LOGNAME': 'netweaver', 'JOURNAL_STREAM': '8:42052', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'netweaver', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'POSH_SHELL_VERSION': '5.1.16(1)-release', 'PATH': '/opt/ros/iron/bin:/home/netweaver/.local/bin:/home/netweaver/bin:/home/netweaver/.nvm/versions/node/v20.11.1/bin:/home/netweaver/.local/bin:/home/netweaver/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/netweaver/.config/composer/vendor/bin:/home/netweaver/.config/composer/vendor/bin', 'SESSION_MANAGER': 'local/envy:@/tmp/.ICE-unix/2622,unix/envy:/tmp/.ICE-unix/2622', 'INVOCATION_ID': 'b6926504db7544ffa202b3f3ee61cf1e', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H16LJ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-94ee0bb294.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'POSH_THEME': '/home/netweaver/.poshthemes/montys.omp.json', 'PWD': '/home/netweaver/workspace/build/first_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/netweaver/workspace/build/first_package/prefix_override:/home/netweaver/workspace/install/first_package/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1', 'POSH_PID': '4235'}, 'shell': False}
+[3.021468] (-) TimerEvent: {}
+[3.122019] (-) TimerEvent: {}
+[3.222543] (-) TimerEvent: {}
+[3.323077] (-) TimerEvent: {}
+[3.423708] (-) TimerEvent: {}
+[3.524233] (-) TimerEvent: {}
+[3.624812] (-) TimerEvent: {}
+[3.672260] (first_package) StdoutLine: {'line': b'running egg_info\n'}
+[3.673393] (first_package) StdoutLine: {'line': b'creating ../../build/first_package/first_package.egg-info\n'}
+[3.725085] (-) TimerEvent: {}
+[3.727085] (first_package) StdoutLine: {'line': b'writing ../../build/first_package/first_package.egg-info/PKG-INFO\n'}
+[3.728188] (first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt\n'}
+[3.728755] (first_package) StdoutLine: {'line': b'writing entry points to ../../build/first_package/first_package.egg-info/entry_points.txt\n'}
+[3.729293] (first_package) StdoutLine: {'line': b'writing requirements to ../../build/first_package/first_package.egg-info/requires.txt\n'}
+[3.729966] (first_package) StdoutLine: {'line': b'writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt\n'}
+[3.730384] (first_package) StdoutLine: {'line': b"writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[3.825355] (-) TimerEvent: {}
+[3.845547] (first_package) StdoutLine: {'line': b"reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[3.848330] (first_package) StdoutLine: {'line': b"writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[3.848929] (first_package) StdoutLine: {'line': b'running build\n'}
+[3.849384] (first_package) StdoutLine: {'line': b'running build_py\n'}
+[3.849818] (first_package) StdoutLine: {'line': b'creating /home/netweaver/workspace/build/first_package/build\n'}
+[3.850379] (first_package) StdoutLine: {'line': b'creating /home/netweaver/workspace/build/first_package/build/lib\n'}
+[3.851231] (first_package) StdoutLine: {'line': b'creating /home/netweaver/workspace/build/first_package/build/lib/first_package\n'}
+[3.851754] (first_package) StdoutLine: {'line': b'copying first_package/subscriber.py -> /home/netweaver/workspace/build/first_package/build/lib/first_package\n'}
+[3.852312] (first_package) StdoutLine: {'line': b'copying first_package/__init__.py -> /home/netweaver/workspace/build/first_package/build/lib/first_package\n'}
+[3.852849] (first_package) StdoutLine: {'line': b'copying first_package/publisher.py -> /home/netweaver/workspace/build/first_package/build/lib/first_package\n'}
+[3.853637] (first_package) StdoutLine: {'line': b'running install\n'}
+[3.854119] (first_package) StderrLine: {'line': b'/home/netweaver/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[3.854736] (first_package) StderrLine: {'line': b'!!\n'}
+[3.856209] (first_package) StderrLine: {'line': b'\n'}
+[3.856703] (first_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.857177] (first_package) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[3.857791] (first_package) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[3.858262] (first_package) StderrLine: {'line': b'        standards-based tools.\n'}
+[3.858726] (first_package) StderrLine: {'line': b'\n'}
+[3.859223] (first_package) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[3.859717] (first_package) StderrLine: {'line': b'        ********************************************************************************\n'}
+[3.860181] (first_package) StderrLine: {'line': b'\n'}
+[3.860637] (first_package) StderrLine: {'line': b'!!\n'}
+[3.861089] (first_package) StderrLine: {'line': b'  self.initialize_options()\n'}
+[3.874470] (first_package) StdoutLine: {'line': b'running install_lib\n'}
+[3.925636] (-) TimerEvent: {}
+[3.929233] (first_package) StdoutLine: {'line': b'creating /home/netweaver/workspace/install/first_package/lib/python3.10/site-packages/first_package\n'}
+[3.930028] (first_package) StdoutLine: {'line': b'copying /home/netweaver/workspace/build/first_package/build/lib/first_package/subscriber.py -> /home/netweaver/workspace/install/first_package/lib/python3.10/site-packages/first_package\n'}
+[3.930606] (first_package) StdoutLine: {'line': b'copying /home/netweaver/workspace/build/first_package/build/lib/first_package/__init__.py -> /home/netweaver/workspace/install/first_package/lib/python3.10/site-packages/first_package\n'}
+[3.931083] (first_package) StdoutLine: {'line': b'copying /home/netweaver/workspace/build/first_package/build/lib/first_package/publisher.py -> /home/netweaver/workspace/install/first_package/lib/python3.10/site-packages/first_package\n'}
+[3.931737] (first_package) StdoutLine: {'line': b'byte-compiling /home/netweaver/workspace/install/first_package/lib/python3.10/site-packages/first_package/subscriber.py to subscriber.cpython-310.pyc\n'}
+[3.933136] (first_package) StdoutLine: {'line': b'byte-compiling /home/netweaver/workspace/install/first_package/lib/python3.10/site-packages/first_package/__init__.py to __init__.cpython-310.pyc\n'}
+[3.933715] (first_package) StdoutLine: {'line': b'byte-compiling /home/netweaver/workspace/install/first_package/lib/python3.10/site-packages/first_package/publisher.py to publisher.cpython-310.pyc\n'}
+[3.934896] (first_package) StdoutLine: {'line': b'running install_data\n'}
+[3.993426] (first_package) StdoutLine: {'line': b'creating /home/netweaver/workspace/install/first_package/share/ament_index\n'}
+[3.994026] (first_package) StdoutLine: {'line': b'creating /home/netweaver/workspace/install/first_package/share/ament_index/resource_index\n'}
+[3.994523] (first_package) StdoutLine: {'line': b'creating /home/netweaver/workspace/install/first_package/share/ament_index/resource_index/packages\n'}
+[3.994857] (first_package) StdoutLine: {'line': b'copying resource/first_package -> /home/netweaver/workspace/install/first_package/share/ament_index/resource_index/packages\n'}
+[3.995410] (first_package) StdoutLine: {'line': b'copying package.xml -> /home/netweaver/workspace/install/first_package/share/first_package\n'}
+[3.996380] (first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.025919] (-) TimerEvent: {}
+[4.054077] (first_package) StdoutLine: {'line': b'Copying ../../build/first_package/first_package.egg-info to /home/netweaver/workspace/install/first_package/lib/python3.10/site-packages/first_package-0.0.0-py3.10.egg-info\n'}
+[4.056879] (first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[4.126201] (-) TimerEvent: {}
+[4.227037] (-) TimerEvent: {}
+[4.327909] (-) TimerEvent: {}
+[4.428738] (-) TimerEvent: {}
+[4.529505] (-) TimerEvent: {}
+[4.552303] (first_package) StdoutLine: {'line': b'Installing listener script to /home/netweaver/workspace/install/first_package/lib/first_package\n'}
+[4.553000] (first_package) StdoutLine: {'line': b'Installing talker script to /home/netweaver/workspace/install/first_package/lib/first_package\n'}
+[4.553795] (first_package) StdoutLine: {'line': b"writing list of installed files to '/home/netweaver/workspace/build/first_package/install.log'\n"}
+[4.629735] (-) TimerEvent: {}
+[4.645933] (first_package) CommandEnded: {'returncode': 0}
+[4.730076] (-) TimerEvent: {}
+[4.831316] (-) TimerEvent: {}
+[4.859991] (first_package) JobEnded: {'identifier': 'first_package', 'rc': 0}
+[4.862441] (-) EventReactorShutdown: {}
